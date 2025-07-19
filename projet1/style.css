@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(135deg,#2b5876,#4e4376);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI',sans-serif;
+    margin: 0;
+}
+.container{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 40px;
+    width: 340px;
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.2) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+
+form button{
+    width: 100%;
+    padding: 12px;
+    display: block;
+    background-color: #00c9ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover{
+    background-color: #0079ff;
+}
+form p{
+    font-size: 0.9em;
+    margin-top: 12px;
+    color:#ddd;
+
+
+}
+form p a {
+    color: #fff ;
+    text-decoration:underline ;
+    transition: color 0.2s;
+
+}
+form p a:hover{
+    color:  #00c9ff;
+}
+#strengthMessage {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+form i{
+    margin-right:10px ;
+    color: #ccc;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+}
+
+.input-group i {
+  color: #ccc;
+  margin-right: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.input-group input::placeholder {
+  color: #ddd;
+}
+.input-group i.fa-eye {
+  right: 10px;
+  cursor: pointer;
+}
+
+
